@@ -1,0 +1,159 @@
+
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+  
+}
+
+/* Header Style Link */
+
+.container-fluid {
+
+	background-color: teal;
+        font-size: 200px;
+        float: left;
+	
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  background-color: green;
+  cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: #666;
+   color: white;
+}
+
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.container {
+
+float: left;
+width: 25%;
+
+}
+
+.clearfix::after {
+ content: "";
+ display: table;
+ clear: both;
+
+}
+
+.menu (width: 25%;}
+.content {width: 75%;}
+
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+
+a {
+
+   color: blue;
+}
+
+/* Styling the Contact Form */
+
+.contactcontainer {
+
+    float: left;
+
+html, body {
+    background: #454A4F;
+    background: radial-gradient(circle at center, #7E8187 0%, #454A4F 70%);
+}
+
+.page__title {
+    font-size: 4em;
+    color: white;
+    text-shadow: 0 10px 80px rgba(255, 255, 255, 0.15);
+    Float: left;
+}
+
+.text-neon-1 {
+    text-shadow: 0 0 4px rgba(255, 127, 255, 1);
+    color: rgba(255, 255, 255, 0.75);
+    -webkit-text-stroke: 2px rgba(255, 127, 255, 0.75);
+}
+
+.text-neon-2 {
+    text-shadow: 0 0 4px rgba(255, 127, 255, 1);
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px rgba(255, 127, 255, 1);
+    filter: blur(0.25px);
+}
+
+.text-neon-3 {
+    text-shadow:
+/*      0px 0px 0.5px white, */
+        0px 0px 2px #ffaaff,
+        0px 0px 4px #ffaaff,
+        0px 0px 8px #ffaaff;
+        color: transparent;
+}
+
+.text-drop {
+    text-shadow:
+        initial,
+        0px 8px 10px black;
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Social media icons with color */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
