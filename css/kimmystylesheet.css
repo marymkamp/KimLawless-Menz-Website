@@ -11,15 +11,14 @@ body {
 
 .container-fluid {
 
-	background-color: teal;
         font-size: 200px;
-        float: left;
-	
-}
+        justify-content: center;
+        align-items: center;
+]
 
-#myBtnContainer {
-
-   display: inline-block;
+h1 {
+  font-size: 50px;
+  word-break: break-all;
 }
 
 /* Style the buttons */
@@ -79,6 +78,10 @@ width: 25%;
 
 
 /* Styling the Contact Form */
+
+.artist_picture {
+
+    float: left;
 
 .contactcontainer {
 
@@ -142,7 +145,7 @@ html, body {
   font-size: 30px;
 }
 
-/* Social media icons with color */
+/* Social media icons */
 .icon-bar a:hover {
   background-color: #000;
 }
@@ -162,3 +165,23 @@ html, body {
   background: #55ACEE;
   color: white;
 }
+
+* Media Queries- Mobile First */
+
+@media (max-width: 480px) {
+
+.artist_picture
+
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+.container {
+
+float: left;
+width: 50%;
+
+}
+
+
