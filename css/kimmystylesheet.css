@@ -9,12 +9,70 @@ body {
 
  /* Header Style Link */
 
- .container-fluid {
+.title {
+  text-align: center;
+}
 
-         font-size: 200px;
-         float: left;
+.myBtnContainer button {
+  width: 100%;
+}
+@media (min-width: 700px) {
+  .myBtnContainer button {
+    width: auto;
+    margin-right: 1em;
+    /* flex: 1; */
+  }
+  .myBtnContainer button:last-child {
+    margin-right: 0;
+  }
+  .myBtnContainer {
+    display: flex;
+    justify-content: center;
+  }
+}
 
- }
+/* Artwork Listing */
+
+.medium {
+  margin-top: 2em;
+}
+.medium ul {
+  margin: 0;
+  padding: 0;
+}
+.medium li {
+  list-style: none;
+  margin-bottom: 3em;
+}
+.medium li img {
+  width: 150px;
+  height: 150px;
+
+}
+.medium a {
+  display: block;
+  margin-bottom: .5em;
+}
+@media (min-width: 700px) {
+  .medium ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .medium li {
+    flex-basis: calc(50% - 1em);
+    padding-right: 1em;
+  }
+}
+@media (min-width: 900px) {
+  .medium li {
+    flex-basis: calc(33.33% - 1em);
+  }
+}
+@media (min-width: 1240px) {
+  .medium li {
+    flex-basis: calc(25% - 1em);
+  }
+}
 
  /* Style the buttons */
  .btn {
@@ -57,7 +115,7 @@ body {
 
  }
 
- .menu (width: 25%;}
+ .menu {width: 25%;}
  .content {width: 75%;}
 
 
@@ -82,11 +140,11 @@ body {
  .contactcontainer {
 
      float: left;
-
- html, body {
+ }
+ /* html, body {
      background: #454A4F;
      background: radial-gradient(circle at center, #7E8187 0%, #454A4F 70%);
- }
+ } */
 
  .page__title {
      font-size: 4em;
@@ -156,9 +214,9 @@ body {
    background: #55ACEE;
    color: white;
  }
- * Media Queries- Mobile First */
+ /* Media Queries- Mobile First */
 
- @media (max-width: 480px) {
+ /* @media (max-width: 480px) {
 
  .artist_picture
 
@@ -172,4 +230,4 @@ body {
  float: left;
  width: 50%;
 
- }
+ } */
